@@ -1,11 +1,10 @@
+
+
 install:
    - echo "installing ..."
    - pwd
    - id -a
    - ls -al
-   - mkdir -p ~/.m2/repository/info/guardianproject/iocipher/IOCipher/0.4.2.1
-   - cp maven-metadata.xml ~/.m2/repository/info/guardianproject/iocipher/IOCipher/
-   - cp IOCipher-0.4.2.1.jar ~/.m2/repository/info/guardianproject/iocipher/IOCipher/0.4.2.1/
-   - cp IOCipher-0.4.2.1.aar ~/.m2/repository/info/guardianproject/iocipher/IOCipher/0.4.2.1/
-   - cp IOCipher-0.4.2.1.pom ~/.m2/repository/info/guardianproject/iocipher/IOCipher/0.4.2.1/
+   - unzip local_maven_iocpiher_0.4.2.100.zip
+   - mv -v root/.m2 ~/
 
