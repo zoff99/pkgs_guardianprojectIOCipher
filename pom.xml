@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>info.guardianproject.iocipher</groupId>
   <artifactId>IOCipher2</artifactId>
-  <version>1.0.29</version>
+  <version>1.0.30</version>
   <packaging>aar</packaging>
 </project>
